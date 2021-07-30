@@ -26,10 +26,10 @@ public class Z_FHybridAppValiadatesimpleCode {
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android01");
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, "/Users/mehmetaliayyildiz/IdeaProjects/AppiumCucumberByAyyildiz/src/Apps/General-Store.apk");
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, "/Users/ayyildiz/IdeaProjects/AppiumPractiseGithubActions/src/app/General-Store.apk");
         //it wait until elements visible
         desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 15);
-        URL url = new URL("http://localhost:4723/wd/hub"); //"http://127.0.0.1:4723/wd/hub"
+        URL url = new URL("http://localhost:4723/wd/hub"); //"http://127.0.0.1:4723/wd/hub
         AndroidDriver<WebElement> driver = new AndroidDriver<WebElement>(url, desiredCapabilities);
 
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

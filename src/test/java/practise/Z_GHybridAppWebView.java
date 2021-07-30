@@ -31,7 +31,7 @@ public class Z_GHybridAppWebView {
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android01");
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, "/Users/mehmetaliayyildiz/Desktop/appium/androidApp/General-Store.apk");
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, "/Users/ayyildiz/IdeaProjects/AppiumPractiseGithubActions/src/app/General-Store.apk");
         desiredCapabilities.setCapability("chromedriverExecutable", "/Users/mehmetaliayyildiz/IdeaProjects/AppiumCucumberTutorial/driver/chromedriver");
         //it can automaticly can select driver
         //desiredCapabilities.setCapability("chromedriverExecutableDir","/Users/mehmetaliayyildiz/IdeaProjects/AppiumCucumberTutorial/driver/" );
