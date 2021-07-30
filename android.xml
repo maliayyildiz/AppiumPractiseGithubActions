@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/ayyildiz/IdeaProjects/AppiumPractiseGithubActions/src/test/java/practise/Z_AHybridAppPositive.java">
+        <classes>
+            <class name="practise.Z_AHybridAppPositive">
+                <methods>
+                    <include name="setupDc"/>
+                </methods>
+            </class>
+            <class name="practise.Z_BHybridAppNegativeToastMsg">
+                <methods>
+                    <include name="setupDc"/>
+                </methods>
+            </class>
+            <class name="practise.Z_CHybridAppShoppingTC">
+                <methods>
+                    <include name="setupDc"/>
+                </methods>
+            </class>
+            <class name="practise.Z_DHybridAppValidateSelectedItem">
+                <methods>
+                    <include name="setupDc"/>
+                </methods>
+            </class>
+            <class name="practise.Z_EHybridAppValiadateSZelected2TotalAmounts">
+                <methods>
+                    <include name="setupDc"/>
+                </methods>
+            </class>
+            <class name="practise.Z_FHybridAppValiadatesimpleCode">
+                <methods>
+                    <include name="setupDc"/>
+                </methods>
+            </class>
+            <class name="practise.Z_GHybridAppWebView">
+                <methods>
+                    <include name="setupDc"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
