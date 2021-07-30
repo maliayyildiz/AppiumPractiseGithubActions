@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         api-level: [29]
-        targer: [default]
+        target: [default]
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
