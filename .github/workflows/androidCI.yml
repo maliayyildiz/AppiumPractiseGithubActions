@@ -19,7 +19,7 @@ jobs:
         targer: [default]
     steps:
     - uses: actions/checkout@v2
-    - name: Set up JDK 11
+    - name: Set up JDK 1.8
       uses: actions/setup-java@v2
       with:
         node-version: '14'
