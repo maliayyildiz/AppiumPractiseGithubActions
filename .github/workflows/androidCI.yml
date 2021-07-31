@@ -23,7 +23,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java_version: 1.8
-    - uses: action/setup-node@v2
+    - uses: action/setup-node@v1
       with:
         node-version: '14'
         check-lastest: true
