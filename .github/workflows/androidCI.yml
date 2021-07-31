@@ -26,6 +26,7 @@ jobs:
     - uses: action/setup-node@v2
       with:
         node-version: '14'
+        check-lastest: true
     - run: |
             npm install -g appium@v1.21.0
             appium -v
